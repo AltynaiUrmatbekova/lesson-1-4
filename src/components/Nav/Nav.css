@@ -1,0 +1,25 @@
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(105, 49, 8);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 .5rem;
+}
+.Nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.Nav a {
+    padding: .5rem 1rem;
+    display: block;
+    color: white;
+    font-size: .8rem;
+    text-decoration: none;
+}
+.Nav a:hover {
+    background-color: chocolate;
+}
